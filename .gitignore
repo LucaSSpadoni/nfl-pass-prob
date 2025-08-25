@@ -1,0 +1,17 @@
+# .gitignore
+cat > .gitignore << 'EOF'
+# Python
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Data & models
+data/
+models/*.pkl
+*.joblib
+
+# OS/Editor
+.DS_Store
+.vscode/
+EOF
